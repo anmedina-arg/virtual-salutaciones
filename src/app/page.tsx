@@ -23,10 +23,10 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col min-h-screen">
+    <main className="flex flex-col h-full">
       <h1 className="text-gray-200 text-center items-center justify-center w-screen absolute text-2xl top-4">Bienvenido al saludador de Virtual!</h1>
       <div className="h-screen flex flex-col justify-center items-center gap-10">
-        <p className="text-gray-200 w-1/2 text-2xl text-center ">Por favor ingresa tus ultimos 3 del DNI para que veas el mensajito que preparamos para vos!</p>
+        <p className="text-gray-200 w-3/4 text-2xl text-center ">Por favor ingresa tus ultimos 3 del DNI para que veas el mensajito que preparamos para vos!</p>
         <form onSubmit={handleSubmit} className="flex gap-2 items-center justify-center ">
           <input type="text" onChange={handleChange} value={filtro} className="p-2 rounded-md" />
           <Link href={`/${filtro}`}>

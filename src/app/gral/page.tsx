@@ -1,14 +1,19 @@
 import Link from "next/link";
-import { saludos } from "../../mockdata/saludos";
+import { Saludo, saludos } from "../../mockdata/saludos";
 import Button from "@/components/button";
+import Carta from "@/components/carta";
 
-export default function Saludo({ params: {id} }: { params: {id: string} }) {
+export default function Saludo({ params: { id } }: { params: { id: string } }) {
   
-  const saludo = saludos.find((objeto) => objeto.id.toString() === id);
+  const saludoFinal : Saludo = {
+    id: '000',
+    name: 'Por último',
+    message: 'Que sea un gran 2024 para todos! FELICIDADES'
+  }
 
   return (
     <section className="flex flex-col justify-center items-center h-screen w-full gap-2">
-      <h3>Mensaje general deseando buenos augurios para el 2024</h3>
+      <Carta saludo={saludoFinal} />
       <Link href={'/'}>
         <Button label="salir"/>
       </Link>
