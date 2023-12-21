@@ -36,8 +36,8 @@ export const saludos : Saludo[] = [
     message: 'Llevamos mucho tiempo trabajando juntos, compartiendo numerosos proyectos y viviendo muchas anécdotas. Nos ha tocado enfrentar diversas situaciones, y siempre lo hemos hecho con la misma templanza, profesionalismo y respeto, logrando el éxito en cada uno de nuestros esfuerzos. En este último periodo, hemos sido sometidos a pruebas que nunca imaginamos, y de corazón queremos agradecerte por mantenerte firme y trabajar siempre con la misma energía, dinámica y chispa que caracterizan tu personalidad.\nValoramos enormemente tu compromiso y lealtad hacia esta organización, y esperamos contar contigo en muchos más años que están por venir... 🙌🏻\nTe deseamos una Feliz Navidad y una carrera profesional muy exitosa en este 2024... 💪🏻'
   },
   {
-    id: '046X',
-    name:'Ramiro',
+    id: '046',
+    name:'Querido Ramiro',
     message: 'Este ha sido un año muy particular para todos, especialmente para vos. \nTe han tocado pasar buenas, malas, muy malas y hasta las peores situaciones en distintos contextos...\nA pesar de todo esto, has encontrado la forma de hacer frente a cada momento y sobreponerte, cosa que muy pocos consiguen hoy en día...\nPara cargar con la mochila que te toca llevar el día de hoy, se requiere de fuerza, valor, astucia, perspectiva, paciencia y humildad…. De más está decir que estas cualidades las tienes y de sobra… y si no lo crees, mira hacia atrás y ve todo lo que has logrado ante la alta probabilidad estadística de que no ibas a poder hacerlo...\n esta Navidad, todo el equipo de Virtual Remote Partner te da las gracias por seguir sosteniendo el timón que dirige esta organización y nunca soltar el ancla...\nSeguí así, que todo esfuerzo tiene su recompensa y las cosas REALMENTE BUENAS se hacen esperar para llegar en el momento justo...\nFeliz Navidad, y de todo corazón deseamos que se cumplan tus deseos...⭐ '
   },
   {
