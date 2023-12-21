@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logoVirtualNavidad from '../../public/logo negro.webp'
+import logoVirtualNavidad from '../../public/logo_gorro.webp'
 
 export const Footer = () => {
   return (
