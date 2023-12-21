@@ -27,7 +27,7 @@ export default function Home() {
     <main className="flex flex-col ">
       <Header />
       <div className="mt-32 flex flex-col justify-center items-center gap-10 ">
-        <p className="text-gray-200 w-3/4 text-2xl text-center ">Por favor ingresa tus ultimos 3 del DNI para que veas el mensajito que preparamos para vos!</p>
+        <p className="text-gray-200 w-3/4 text-2xl text-center ">Ingresa tus últimos 3 números del DNI para ver tu mensajito!</p>
         <form onSubmit={handleSubmit} className="flex gap-2 items-center justify-center ">
           <input type="text" onChange={handleChange} value={filtro} className="p-2 rounded-md" />
           <Link href={`/${filtro}`}>

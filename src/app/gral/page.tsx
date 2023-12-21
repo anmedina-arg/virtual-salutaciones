@@ -7,8 +7,8 @@ export default function Saludo({ params: { id } }: { params: { id: string } }) {
   
   const saludoFinal : Saludo = {
     id: '000',
-    name: 'Por último',
-    message: 'Que sea un gran 2024 para todos! FELICIDADES'
+    name: '',
+    message: 'Te deseamos una muy feliz navidad y un prospero 2024. ¡Felices fiestas!'
   }
 
   return (
