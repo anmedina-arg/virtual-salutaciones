@@ -12,7 +12,7 @@ export default function Saludo({ params: { id } }: { params: { id: string } }) {
   }
 
   return (
-    <section className="flex flex-col justify-center items-center h-screen w-full gap-2">
+    <section className="flex flex-col justify-center items-center h-screen gap-4 w-3/4">
       <Carta saludo={saludoFinal} footer/>
       <Link href={'/'}>
         <Button label="salir"/>

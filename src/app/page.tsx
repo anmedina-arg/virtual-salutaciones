@@ -24,7 +24,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col">
+    <main>
       <Header />
       <div className="mt-32 flex flex-col justify-center items-center gap-10 ">
         <p className="text-gray-200 w-3/4 text-lg text-center ">Ingresa tus últimos 3 números del DNI para ver tu mensajito!</p>
