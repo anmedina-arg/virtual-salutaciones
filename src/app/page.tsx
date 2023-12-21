@@ -24,7 +24,7 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col ">
+    <main className="flex flex-col bg-[url('../../public/bg_image1.webp')] bg-contain bg-no-repeat bg-bottom">
       <Header />
       <div className="mt-32 flex flex-col justify-center items-center gap-10 ">
         <p className="text-gray-200 w-3/4 text-2xl text-center ">Ingresa tus últimos 3 números del DNI para ver tu mensajito!</p>

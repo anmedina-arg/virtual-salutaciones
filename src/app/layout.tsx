@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[url('../../public/bg_image1.webp')] bg-cover ps-4 flex flex-col items-center`}>
+      <body className={`${inter.className} flex flex-col items-center bg-gradient-to-tl from-[#00001e] to-[#010044] `}>
         <Image className='mt-4' src={logoVirtual} width={150} height={150} alt='logo virtual remote partner'/>
         {children}
       </body>
