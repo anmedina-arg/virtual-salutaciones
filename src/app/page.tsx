@@ -24,10 +24,10 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col bg-[url('../../public/bg_image1.webp')] bg-contain bg-no-repeat bg-bottom">
+    <main className="flex flex-col">
       <Header />
       <div className="mt-32 flex flex-col justify-center items-center gap-10 ">
-        <p className="text-gray-200 w-3/4 text-2xl text-center ">Ingresa tus últimos 3 números del DNI para ver tu mensajito!</p>
+        <p className="text-gray-200 w-3/4 text-lg text-center ">Ingresa tus últimos 3 números del DNI para ver tu mensajito!</p>
         <form onSubmit={handleSubmit} className="flex gap-2 items-center justify-center ">
           <input type="text" onChange={handleChange} value={filtro} className="p-2 rounded-md" />
           <Link href={`/${filtro}`}>

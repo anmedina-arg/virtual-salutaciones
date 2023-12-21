@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
-import { Roboto_Condensed } from 'next/font/google'
+import { Roboto_Condensed, Pacifico } from 'next/font/google'
 import './globals.css'
 import Image from 'next/image'
 import logoVirtual from '../../public/logo blanco.webp'
 
-const inter = Roboto_Condensed({ subsets: ['latin'] })
+const roboto = Roboto_Condensed({subsets: ['latin']})
 
 export const metadata: Metadata = {
   title: 'Virtual Remote Partner',
@@ -15,10 +15,11 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
-}) {
+  }) {
+  //bg-gradient-to-tl from-[#00001e] to-[#010044]
   return (
     <html lang="en">
-      <body className={`${inter.className} flex flex-col items-center bg-gradient-to-tl from-[#00001e] to-[#010044] `}>
+      <body className={`${roboto.className} flex flex-col items-center bg-[url('../../public/bg_image1.webp')] bg-cover bg-no-repeat`}>
         <Image className='mt-4' src={logoVirtual} width={150} height={150} alt='logo virtual remote partner'/>
         {children}
       </body>
